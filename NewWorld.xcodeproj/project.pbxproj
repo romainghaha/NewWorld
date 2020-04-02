@@ -18,6 +18,11 @@
 		529601302434A405006028DF /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296012F2434A405006028DF /* RankViewController.swift */; };
 		529601322434A412006028DF /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529601312434A412006028DF /* DiscoverViewController.swift */; };
 		529601342434A41D006028DF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529601332434A41D006028DF /* ProfileViewController.swift */; };
+		5296013C24358900006028DF /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296013B24358900006028DF /* UIColor+Extension.swift */; };
+		5296013F2435C28B006028DF /* NWPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296013E2435C28B006028DF /* NWPageView.swift */; };
+		529601412435C2A3006028DF /* NWMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529601402435C2A3006028DF /* NWMenuView.swift */; };
+		529601432435C2B4006028DF /* NWContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529601422435C2B4006028DF /* NWContentView.swift */; };
+		529601452435C404006028DF /* NWMenuStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529601442435C404006028DF /* NWMenuStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,11 @@
 		5296012F2434A405006028DF /* RankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
 		529601312434A412006028DF /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		529601332434A41D006028DF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5296013B24358900006028DF /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		5296013E2435C28B006028DF /* NWPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWPageView.swift; sourceTree = "<group>"; };
+		529601402435C2A3006028DF /* NWMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWMenuView.swift; sourceTree = "<group>"; };
+		529601422435C2B4006028DF /* NWContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWContentView.swift; sourceTree = "<group>"; };
+		529601442435C404006028DF /* NWMenuStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWMenuStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +103,7 @@
 		5296012324349EDD006028DF /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				5296013D2435C253006028DF /* NWPageView */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -100,8 +111,8 @@
 		5296012424349EEB006028DF /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				529601292434A00B006028DF /* TabBarController.swift */,
-				5296012B2434A378006028DF /* NavigationController.swift */,
+				5296013A243588E4006028DF /* Extension */,
+				52960139243588D7006028DF /* Controller */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -136,6 +147,34 @@
 				529601332434A41D006028DF /* ProfileViewController.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		52960139243588D7006028DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				529601292434A00B006028DF /* TabBarController.swift */,
+				5296012B2434A378006028DF /* NavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5296013A243588E4006028DF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5296013B24358900006028DF /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5296013D2435C253006028DF /* NWPageView */ = {
+			isa = PBXGroup;
+			children = (
+				5296013E2435C28B006028DF /* NWPageView.swift */,
+				529601402435C2A3006028DF /* NWMenuView.swift */,
+				529601422435C2B4006028DF /* NWContentView.swift */,
+				529601442435C404006028DF /* NWMenuStyle.swift */,
+			);
+			path = NWPageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,9 +248,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5296013F2435C28B006028DF /* NWPageView.swift in Sources */,
+				529601432435C2B4006028DF /* NWContentView.swift in Sources */,
 				5296012E2434A3FA006028DF /* HomeViewController.swift in Sources */,
 				5296012A2434A00B006028DF /* TabBarController.swift in Sources */,
+				529601412435C2A3006028DF /* NWMenuView.swift in Sources */,
 				529601322434A412006028DF /* DiscoverViewController.swift in Sources */,
+				5296013C24358900006028DF /* UIColor+Extension.swift in Sources */,
+				529601452435C404006028DF /* NWMenuStyle.swift in Sources */,
 				529601302434A405006028DF /* RankViewController.swift in Sources */,
 				5296012C2434A378006028DF /* NavigationController.swift in Sources */,
 				5296010F24349EC6006028DF /* AppDelegate.swift in Sources */,

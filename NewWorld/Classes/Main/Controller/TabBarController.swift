@@ -39,6 +39,7 @@ extension TabBarController {
     private func configChildViewController(childVC:UIViewController, childTitle:String, imageName:String, selectImage:String, index:Int) {
         let navigation = UINavigationController(rootViewController: childVC)
         navigation.navigationBar.barTintColor = UIColor.black
+        navigation.navigationBar.isTranslucent = false
         navigation.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.orange]
         childVC.title = childTitle;
         childVC.tabBarItem.tag = index
